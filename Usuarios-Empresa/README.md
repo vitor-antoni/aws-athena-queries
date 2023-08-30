@@ -37,10 +37,10 @@ Antes de começarmos o passo a passo, vamos começar explicando a existência de
 10. Após rodar o Crawler e ele retornar um status de **READY**, podemos navegar até o AWS Athena.
 11. Em `data`, vamos selecionar `empresa-xyz-database`.
 12. Abaixo, será exibido uma lista suspensa com o nome `Tables`, clicaremos nela e vamos ver o nome da nossa tabela criada anteriormente.
-13. Clique nos "3 pontinhos" no lado direito do nome da tabela e em `Preview Table`. **Esta ação nos permitirá visualizar todos os dados contidos no arquivo `usuarios.csv`.
+13. Clique nos "3 pontinhos" no lado direito do nome da tabela e em `Preview Table`. Esta ação nos **permitirá visualizar todos** os dados contidos no arquivo `usuarios.csv`.
 14. Agora, vamos executar algumas pesquisas em SQL Language usando os comandos disponibizados no arquivo `athena-queries.sql`.
 
-✅ Passo a passo concluído com sucesso. Caso houver alguma correção, questionamento ou dúvida, sinta-se a vontade para interagir com este repositório.
+✅ **Passo a passo concluído com sucesso. Caso houver alguma correção, questionamento ou dúvida, sinta-se a vontade para interagir com este repositório.**
 
 ## 📑 Informações adicionais
 
