@@ -4,8 +4,7 @@ Na empresa *XYZ*, há uma quantidade considerável de usuários cadastrada no si
 
 ## ❗ Explicação
 Antes de começarmos o passo a passo, vamos começar explicando a existência de arquivo dentro deste diretório: <br>
-→ *[usuarios.csv](usuarios.csv)* : Arquivo com as informações dos usuários.
-
+→ *[usuarios.csv](usuarios.csv)* : Arquivo com as informações dos usuários.<br>
 → *[athena-queries.sql](athena-queries.sql)* : Neste arquivo, podemos ver algumas queries/consultas que podemos realizar no AWS Athena a partir dos dados utilizados.
 
 > **Reforçando:** TODOS os dados presentes no repositório são dados fictícios e gerados por uma Inteligênia Artificial - Google Bard e ChatGPT
