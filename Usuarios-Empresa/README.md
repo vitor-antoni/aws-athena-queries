@@ -40,8 +40,8 @@ Antes de começarmos o passo a passo, vamos começar explicando a existência de
 13. Clique nos "3 pontinhos" no lado direito do nome da tabela e em `Preview Table`. Esta ação nos **permitirá visualizar todos** os dados contidos no arquivo `usuarios.csv`.
 14. Agora, vamos executar algumas pesquisas em SQL Language usando os comandos disponibizados no arquivo `athena-queries.sql`.
 
-✅ **Passo a passo concluído com sucesso. 
-Caso houver alguma correção, questionamento ou dúvida, sinta-se a vontade para interagir com este repositório.**
+✅ **Passo a passo concluído com sucesso.**
+Caso houver alguma correção, questionamento ou dúvida, sinta-se a vontade para interagir com este repositório.
 
 ## 📑 Informações adicionais
 
