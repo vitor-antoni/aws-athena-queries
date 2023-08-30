@@ -15,7 +15,7 @@ pessoais).
 ##### [MAIS NOVO - MAIS ANTIGO]
 
 - **Usuarios-Empresa** <br>
-Na empresa *XYZ*, há uma quantidade considerável de usuários cadastrada no sistema, estes dados podem ser visualizados por um arquivo CSV. Nele, está contido informações como: nome, sobrenome, nascimento, email, cargo. Iremos tratar estes dados e visualizá-los no Athena.
+Na empresa *XYZ*, há uma quantidade considerável de usuários cadastrada no sistema, estes dados podem ser visualizados por um arquivo CSV. Nele, está contido informações como: nome, sobrenome, nascimento, email, cargo, estado, salario. Iremos tratar estes dados e visualizá-los no Athena.
 **Data:** *30/08/2023*
 
 ## 📑 Informações adicionais
