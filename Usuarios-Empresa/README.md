@@ -16,18 +16,18 @@ Antes de começarmos o passo a passo, vamos começar explicando a existência de
 4. Navegue até o serviço **AWS Glue** e na aba esquerda, clique em *Data Catalog*, logo após, clique em *Classifiers* (abaixo de Crawlers).
 5. Iremos criar um classifier para que seja deterimado os nomes das colunas/cabeçalho da nossa tabela.
 6. Neste caso, iremos especificar:
-    * `usuarios-classifier` para o nome;
-    * `CSV` para classifier type;
-    * `Has headings` para column headings;
+    * nome: `usuarios-classifier`;
+    * classifier type: `CSV`;
+    * column headings: `Has headings`;
     * `nome,sobrenome,nascimento,email,cargo,estado,salario` no espaço abaixo de `Has headings`;
-    > Especifique exatamente nesta ordem;
+    > Especifique **exatamente** nesta ordem;
     * Crie o classifier;
 7. Iremos criar um banco de dados/database para os nossos dados a serem processados pelo Glue. Para isto, na aba esquerda, clique em Databases e em `create database`. Especifique o nome `empresa-xyz-database` .
 
 > Este banco de dados não é um banco de dados comum próprio para ser utilizado em uma aplicação WEB, por exemplo. Para este caso de uso, seria adequado serviços como o RDS ou o DynamoDB.
 
 8. Na aba esquerda, clique em Crawlers e vamos criar um Crawler.
-    * `usuarios-crawler` para o nome;
+    * nome: `usuarios-crawler`;
     * clique em `add a data source`;
     * cole o URI do seu Bucket do S3 criado anteriormente (`empresa-xyz-bucket`) ou clique em `Browse S3`;
     * selecione a função/role do IAM adequada;
