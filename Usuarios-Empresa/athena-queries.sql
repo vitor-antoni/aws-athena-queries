@@ -16,6 +16,10 @@ FROM "usuarios-table-empresa-xyz-bucket"
 WHERE "estado" = 'Rio Grande do Sul'
 AND "salario" >= 5500;
 
+SELECT count(*), "cargo"
+FROM "usuarios-table-empresa-xyz-bucket"
+GROUP BY("cargo");
+
 SELECT count(*), "estado"
 FROM "usuarios-table-empresa-xyz-bucket"
 GROUP BY("estado");
