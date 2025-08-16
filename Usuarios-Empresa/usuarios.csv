@@ -1,4 +1,4 @@
-nome,sobrenome,nascimento,email,profissao,cidade,salario
+nome,sobrenome,nascimento,email,profissao,estado,salario
 João,Silva,15/03/1985,joao.silva@email.com,Analista de Vendas,São Paulo,5000
 Maria,Santos,22/07/1990,maria.santos@email.com,Engenheiro de Software,Rio de Janeiro,6500
 Pedro,Costa,10/05/1982,pedro.costa@email.com,Gerente de Projetos,Minas Gerais,7500
